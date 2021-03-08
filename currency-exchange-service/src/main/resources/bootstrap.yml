@@ -1,0 +1,22 @@
+server:
+  port: 8000
+
+
+spring:
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
+      label: main
+  application:
+    name: currency-exchange-service
+  profiles:
+    active: dev
+
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh

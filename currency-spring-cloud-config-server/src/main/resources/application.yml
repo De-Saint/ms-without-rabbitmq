@@ -12,5 +12,5 @@ spring:
           uri: https://github.com/De-Saint/exchange_rate_microservices_config_server.git
           clone-on-start: true
           username: De-Saint
-          password: dee20mene
+          password: old_testament
 
